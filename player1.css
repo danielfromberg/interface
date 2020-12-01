@@ -1,0 +1,37 @@
+
+audio::-webkit-media-controls-panel {
+
+  background-image: linear-gradient(white, black);
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: whit;
+  margin-top: 10px;
+  height: 28px;
+}
+
+
+
+
+audio::-webkit-media-controls-current-time-display {
+
+color: gray;
+}
+
+
+audio::-webkit-media-controls-time-remaining-display {
+
+
+  color: white;
+}
+
+
+
+audio::-webkit-media-controls-rewind-button {
+  background-color: gray;
+}
+
+
+
+audio:hover {transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333);}
+}

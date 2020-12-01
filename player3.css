@@ -1,0 +1,54 @@
+
+audio::-webkit-media-controls-panel {
+
+  background-color: rgb(0,255,0);
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: blue;
+  margin-top: 10px;
+  height: 28px;
+}
+
+
+audio::-webkit-media-controls-play-button {
+height: 28px;
+
+  background-color: magenta;
+}
+
+
+audio::-webkit-media-controls-timeline-container {
+background-color: red;
+
+}
+
+
+audio::-webkit-media-controls-current-time-display {
+
+color: rgb(255,0,221);
+}
+
+
+audio::-webkit-media-controls-time-remaining-display {
+
+
+  color: rgb(238,255,0);
+}
+
+
+audio::-webkit-media-controls-timeline {
+
+  background-color: cyan;
+  opacity: .9;
+}
+
+
+audio::-webkit-media-controls-rewind-button {
+  background-color: yellow;
+}
+
+
+
+audio:hover {transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333);}
+}

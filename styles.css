@@ -1,0 +1,56 @@
+body,html {
+
+height: 100vh;
+margin-right: 5px;
+background-image: linear-gradient(white, gray, black, maroon, black, white);
+
+}
+
+
+#audio {
+  position: absolute;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+
+iframe {
+  height: 25%;
+}
+
+div {
+  margin: 0;
+}
+
+
+.one {
+
+  background-image: linear-gradient(black, gray);
+
+}
+
+.one >  a {color: white;}
+
+.two {
+    background-image: linear-gradient(yellow, pink, purple);
+}
+
+.three {
+  background-image: linear-gradient(cyan, yellow, magenta, lime);
+}
+
+.four {
+background-image: linear-gradient(black, red, pink, green, white, transparent, brown, blue, blue, red, green, orange, brown, white, transparent);
+}
+
+
+.one > a {color: blue;}
+.one > a:visited {color: white;}
+.one > a:hover {color: red;}
+.one > a:active {color:white;}
+
+
+
+::selection {
+  background-color: red;
+  color: cyan;
